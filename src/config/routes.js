@@ -7,6 +7,6 @@ export default (
     <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/products/:id' element={<ProductDetail />} />
-        <Route path='/products' element={<ProductList />} />
+        <Route path='/products' element={<ProductList maxDisplay={3}/>} />
     </Routes>
 )
