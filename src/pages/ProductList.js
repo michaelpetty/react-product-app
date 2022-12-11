@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
-import { Button, Card, Image, Dimmer, Loader, Segment } from "semantic-ui-react";
+import { Button, Card, Dimmer, Loader, Segment } from "semantic-ui-react";
 import ProductCard from "../components/ProductCard";
 import ProductModel from "../models/product";
 

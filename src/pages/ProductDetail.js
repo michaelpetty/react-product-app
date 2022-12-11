@@ -1,5 +1,4 @@
 import { Component } from "react"
-import { Card, Image } from "semantic-ui-react"
 import ProductCard from "../components/ProductCard"
 import ProductModel from "../models/product"
 
